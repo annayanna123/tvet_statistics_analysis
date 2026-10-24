@@ -438,7 +438,7 @@ with left_chart:
             "region_name": "Region",
             "Persons": "Number of persons",
         },
-        color_discrete_sequence=["#8B5CF6", "#F59E0B"],
+        color_discrete_sequence=["#647B91", "#8DA399"],
     )
 
     fig_region.update_layout(
@@ -468,7 +468,7 @@ with right_chart:
             "province_name": "Province",
             "Persons": "Number of persons",
         },
-        color_discrete_sequence=["#8B5CF6", "#F59E0B"],
+        color_discrete_sequence=["#647B91", "#8DA399"],
     )
 
     fig_province.update_layout(
@@ -514,7 +514,7 @@ with left_chart:
             "certification_rate": "Reported rate (%)",
             "province_name": "Province",
         },
-        color_continuous_scale="Viridis",
+        color_discrete_sequence=["#647B91"],
     )
 
     fig_rate.update_layout(
@@ -541,7 +541,7 @@ with right_chart:
             "Sex": "Sex",
             "Persons": "Number of persons",
         },
-        color_discrete_sequence=["#8B5CF6", "#F59E0B"],
+        color_discrete_sequence=["#647B91", "#8DA399"],
     )
 
     fig_gender.update_layout(
