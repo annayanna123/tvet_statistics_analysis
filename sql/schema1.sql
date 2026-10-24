@@ -1,7 +1,7 @@
-CREATE TABLE regions (
-    region_id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    region_name TEXT NOT NULL
-);
+-- CREATE TABLE regions (
+--     region_id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+--     region_name TEXT NOT NULL
+-- );
 
 CREATE TABLE province_stats (
     province_id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -14,7 +14,6 @@ CREATE TABLE province_stats (
     certified_female INTEGER CHECK (certified_female >= 0),
     certified_male INTEGER CHECK (certified_male >= 0),
     certified_total INTEGER CHECK (certified_total >= 0),
-    certification_rate NUMERIC(6,2)
+    certification_rate NUMERIC(6,4),
     UNIQUE (region_id, province_id)
-    
-);
+)
