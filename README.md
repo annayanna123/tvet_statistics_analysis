@@ -36,6 +36,7 @@ The original workbook is processed before loading into the database.
 |---|---|
 | Python | Data cleaning, transformation, and processing |
 | Pandas | Data manipulation and analysis |
+| Jupyter Notebook | Exploratory data analysis and documentation of cleaning decisions |
 | PostgreSQL | Relational database and analytical queries |
 | Neon | Hosted PostgreSQL database |
 | SQL | Data aggregation, ranking, and analytical querying |
